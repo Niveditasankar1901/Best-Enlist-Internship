@@ -1,7 +1,7 @@
 # Day 11
 
 # 1.Create a python module with list and import the module in another .py file and change the value in list
-# Create a python that contain list and save as lis_module
+# Create a python file that contain list and save as lis_module
 # Create another python file and import lis_module
 from lis_module import *
 k[0]=8

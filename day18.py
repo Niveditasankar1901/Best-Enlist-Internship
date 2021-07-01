@@ -5,7 +5,7 @@ import mysql.connector
 db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98"
+  password="yourpassword"
 )
 
 cur = db.cursor()
@@ -49,10 +49,3 @@ for x in result:
   
 #Output:-
 #(2, 'Genos')
-
-
-
-
-
-
-

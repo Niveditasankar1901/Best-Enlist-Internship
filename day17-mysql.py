@@ -5,7 +5,7 @@ import sys
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98",
+  password="yourpassword",
   database = "best-enlist"
 )
 print(mydb) 
@@ -29,7 +29,7 @@ import mysql.connector
 db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98",
+  password="yourpassword",
   database = "best-enlist"
 )
 
@@ -61,7 +61,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98",
+  password="yourpassword",
   database = "best-enlist"
 )
 mycursor = mydb.cursor()
@@ -81,7 +81,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98",
+  password="yourpassword",
   database = "best-enlist"
 )
 

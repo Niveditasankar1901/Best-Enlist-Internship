@@ -5,21 +5,21 @@ import mysql.connector
 db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98",
+  password="yourpassword",
   database = "best-enlist"
 )
-
+# Creating table
 cur = db.cursor()
 cur.execute("CREATE TABLE students(Roll_no int, Name VARCHAR(255), Department VARCHAR(255), CGPA float)")
 db.close()
 
-
+# Opening excel and adding value
 import mysql.connector
 import xlrd
 db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98",
+  password="yourpassword",
   database = "best-enlist"
 )
 

@@ -16,7 +16,7 @@ x=json.dumps(data)
 db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="sudharsan98",
+  password="Yourpassword",
   database = "best-enlist"
 )
 

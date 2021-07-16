@@ -1,4 +1,5 @@
 #Day 27
+#1.Take any webpage, Scrape the data and try to insert only the class data and save it in excel
 
 import requests
 from bs4 import BeautifulSoup
